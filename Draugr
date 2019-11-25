@@ -1,0 +1,76 @@
+{
+	"name": "Draugr",
+	"source": "",
+	"size": "M",
+	"type": "undead",
+	"alignment": [
+		"N",
+		"E"
+	],
+	"ac": [
+		{
+			"ac": 12,
+			"from": [
+				"armor scraps"
+			]
+		}
+	],
+	"hp": {
+		"average": 37,
+		"formula": "5d8 + 15"
+	},
+	"speed": {
+		"walk": 30
+	},
+	"str": 16,
+	"dex": 10,
+	"con": 16,
+	"int": 5,
+	"wis": 9,
+	"cha": 4,
+	"passive": 9,
+	"immune": [
+		"poison"
+	],
+	"vulnerable": [
+		"radiant",
+		"bludgeoning"
+	],
+	"conditionImmune": [
+		"poisoned",
+		"exhaustion"
+	],
+	"languages": [
+		"understands all Languages It Spoke In Life but can't speak"
+	],
+	"cr": "1/2",
+	"action": [
+		{
+			"name": "Longsword",
+			"entries": [
+				"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands to make a melee attack."
+			]
+		},
+		{
+			"name": "Shortbow",
+			"entries": [
+				"{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage.",
+				"Description",
+				"A tourtured soul who suffers from the Undeath Shadow Ritual over the island of Icargwan cast by the Gods of the New Norse Faith. Tough and brutal, they rely on numbers to defeat their enemies. If an empath is nearby or Detect Thoughts cast on them, a person may hear their desperate cries for death and wails of torture, asking to be killed."
+			]
+		}
+	],
+	"languageTags": [
+		"CS",
+		"XX"
+	],
+	"damageTags": [
+		"S",
+		"P"
+	],
+	"miscTags": [
+		"MW",
+		"RW",
+		"RNG"
+	]
+}
